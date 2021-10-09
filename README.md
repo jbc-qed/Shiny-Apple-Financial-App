@@ -2,7 +2,7 @@
 A Shiny App using R to showcase some of the features I've picked up in the R `ggplot2` and `Shiny` packages.
 Uses Apple Financial data in the data file specified in the below instructions.
 
-To run the app, download the AAPL.sas7bdat data file, and run the following on R or R-Studio...
+To run the app, download the AAPL.sas7bdat data file, and run the following on R-Studio...
 
 ```
 # First, make sure you have the following libraries installed {if needed, run install.packages("<package_name>") for each} and loaded into the environment:
