@@ -5,7 +5,7 @@ Uses Apple Financial data in the data file specified in the below instructions.
 To run the app, download the AAPL.sas7bdat data file, and run the following on R or R-Studio...
 
 ```
-#First, make sure you have the following libraries installed and called:
+# First, make sure you have the following libraries installed {if needed, run install.packages("<package_name>") for each} and loaded into the environment:
 
 library(shiny)
 library(ggplot2)
@@ -14,6 +14,6 @@ library(dplyr)
 library(haven)
 library(ggthemes)
 
-Next, run the following command to see the app in action:
+# Next, run the following command to see the app in action:
 
 runGitHub( "Shiny-Apple-Financial-App", "jbc-qed", ref = "main")```
